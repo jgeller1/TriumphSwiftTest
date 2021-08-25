@@ -3,9 +3,9 @@ Are you up for the challenge?
 
 You are going to help debug and build functionality for our donation app. This will be a simple app that tracks your donations to various charitable organizations with friends. 
 
-Steps: 
+# Steps: 
 
-1. Setup 
+# 1. Setup 
 
 Download the starter project. We .gitignore all Pods files, so be sure to run a "pod install" once cloned. 
 

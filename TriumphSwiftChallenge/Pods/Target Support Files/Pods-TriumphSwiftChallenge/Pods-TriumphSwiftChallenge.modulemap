@@ -1,6 +1,0 @@
-framework module Pods_TriumphSwiftChallenge {
-  umbrella header "Pods-TriumphSwiftChallenge-umbrella.h"
-
-  export *
-  module * { export * }
-}

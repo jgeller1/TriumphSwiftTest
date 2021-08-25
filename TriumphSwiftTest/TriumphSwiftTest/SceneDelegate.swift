@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  TriumphSwiftChallenge
+//  TriumphSwiftTest
 //
 //  Created by Jared Geller on 8/25/21.
 //

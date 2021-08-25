@@ -7,127 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8930ED07474464E94E7CECA4 /* Pods_TriumphSwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39311FE6F0D116E60BF4F0D9 /* Pods_TriumphSwiftChallenge.framework */; };
-		E519763B26D6D20800CEB1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519763A26D6D20800CEB1DE /* AppDelegate.swift */; };
-		E519763D26D6D20800CEB1DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519763C26D6D20800CEB1DE /* SceneDelegate.swift */; };
-		E519763F26D6D20800CEB1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519763E26D6D20800CEB1DE /* ViewController.swift */; };
-		E519764226D6D20800CEB1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E519764026D6D20800CEB1DE /* Main.storyboard */; };
-		E519764426D6D20900CEB1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E519764326D6D20900CEB1DE /* Assets.xcassets */; };
-		E519764726D6D20900CEB1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E519764526D6D20900CEB1DE /* LaunchScreen.storyboard */; };
+		ABF0562D4912594C2A79D773 /* Pods_TriumphSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464FEA466F4D97AD3991131E /* Pods_TriumphSwiftTest.framework */; };
+		E519767B26D6D3A500CEB1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519767A26D6D3A500CEB1DE /* AppDelegate.swift */; };
+		E519767D26D6D3A500CEB1DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519767C26D6D3A500CEB1DE /* SceneDelegate.swift */; };
+		E519767F26D6D3A500CEB1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E519767E26D6D3A500CEB1DE /* ViewController.swift */; };
+		E519768226D6D3A500CEB1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E519768026D6D3A500CEB1DE /* Main.storyboard */; };
+		E519768426D6D3A600CEB1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E519768326D6D3A600CEB1DE /* Assets.xcassets */; };
+		E519768726D6D3A600CEB1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E519768526D6D3A600CEB1DE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		39311FE6F0D116E60BF4F0D9 /* Pods_TriumphSwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriumphSwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		459A6748732A356BE0215D85 /* Pods-TriumphSwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriumphSwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-TriumphSwiftChallenge/Pods-TriumphSwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		C533ADB6AA88EDE8A6392823 /* Pods-TriumphSwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriumphSwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-TriumphSwiftChallenge/Pods-TriumphSwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		E519763726D6D20800CEB1DE /* TriumphSwiftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriumphSwiftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E519763A26D6D20800CEB1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E519763C26D6D20800CEB1DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E519763E26D6D20800CEB1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E519764126D6D20800CEB1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E519764326D6D20900CEB1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E519764626D6D20900CEB1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E519764826D6D20900CEB1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464FEA466F4D97AD3991131E /* Pods_TriumphSwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriumphSwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAE9486D4DF7A229854B6FC /* Pods-TriumphSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriumphSwiftTest.release.xcconfig"; path = "Target Support Files/Pods-TriumphSwiftTest/Pods-TriumphSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
+		C46BCBE10D658A234700C1F9 /* Pods-TriumphSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriumphSwiftTest.debug.xcconfig"; path = "Target Support Files/Pods-TriumphSwiftTest/Pods-TriumphSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E519767726D6D3A500CEB1DE /* TriumphSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriumphSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E519767A26D6D3A500CEB1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E519767C26D6D3A500CEB1DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E519767E26D6D3A500CEB1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E519768126D6D3A500CEB1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E519768326D6D3A600CEB1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E519768626D6D3A600CEB1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E519768826D6D3A600CEB1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E519763426D6D20700CEB1DE /* Frameworks */ = {
+		E519767426D6D3A500CEB1DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8930ED07474464E94E7CECA4 /* Pods_TriumphSwiftChallenge.framework in Frameworks */,
+				ABF0562D4912594C2A79D773 /* Pods_TriumphSwiftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0378F6888532D6C67AE69848 /* Pods */ = {
+		0E0220AF0F003FFA5B110F92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				459A6748732A356BE0215D85 /* Pods-TriumphSwiftChallenge.debug.xcconfig */,
-				C533ADB6AA88EDE8A6392823 /* Pods-TriumphSwiftChallenge.release.xcconfig */,
+				464FEA466F4D97AD3991131E /* Pods_TriumphSwiftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B9BA3ACF0645095D5F78A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C46BCBE10D658A234700C1F9 /* Pods-TriumphSwiftTest.debug.xcconfig */,
+				BFAE9486D4DF7A229854B6FC /* Pods-TriumphSwiftTest.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9CC1CCA938B19678BD85CC64 /* Frameworks */ = {
+		E519766E26D6D3A500CEB1DE = {
 			isa = PBXGroup;
 			children = (
-				39311FE6F0D116E60BF4F0D9 /* Pods_TriumphSwiftChallenge.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E519762E26D6D20700CEB1DE = {
-			isa = PBXGroup;
-			children = (
-				E519763926D6D20800CEB1DE /* TriumphSwiftChallenge */,
-				E519763826D6D20800CEB1DE /* Products */,
-				0378F6888532D6C67AE69848 /* Pods */,
-				9CC1CCA938B19678BD85CC64 /* Frameworks */,
+				E519767926D6D3A500CEB1DE /* TriumphSwiftTest */,
+				E519767826D6D3A500CEB1DE /* Products */,
+				20B9BA3ACF0645095D5F78A6 /* Pods */,
+				0E0220AF0F003FFA5B110F92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E519763826D6D20800CEB1DE /* Products */ = {
+		E519767826D6D3A500CEB1DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E519763726D6D20800CEB1DE /* TriumphSwiftChallenge.app */,
+				E519767726D6D3A500CEB1DE /* TriumphSwiftTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E519763926D6D20800CEB1DE /* TriumphSwiftChallenge */ = {
+		E519767926D6D3A500CEB1DE /* TriumphSwiftTest */ = {
 			isa = PBXGroup;
 			children = (
-				E519763A26D6D20800CEB1DE /* AppDelegate.swift */,
-				E519763C26D6D20800CEB1DE /* SceneDelegate.swift */,
-				E519763E26D6D20800CEB1DE /* ViewController.swift */,
-				E519764026D6D20800CEB1DE /* Main.storyboard */,
-				E519764326D6D20900CEB1DE /* Assets.xcassets */,
-				E519764526D6D20900CEB1DE /* LaunchScreen.storyboard */,
-				E519764826D6D20900CEB1DE /* Info.plist */,
+				E519767A26D6D3A500CEB1DE /* AppDelegate.swift */,
+				E519767C26D6D3A500CEB1DE /* SceneDelegate.swift */,
+				E519767E26D6D3A500CEB1DE /* ViewController.swift */,
+				E519768026D6D3A500CEB1DE /* Main.storyboard */,
+				E519768326D6D3A600CEB1DE /* Assets.xcassets */,
+				E519768526D6D3A600CEB1DE /* LaunchScreen.storyboard */,
+				E519768826D6D3A600CEB1DE /* Info.plist */,
 			);
-			path = TriumphSwiftChallenge;
+			path = TriumphSwiftTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E519763626D6D20700CEB1DE /* TriumphSwiftChallenge */ = {
+		E519767626D6D3A500CEB1DE /* TriumphSwiftTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E519764B26D6D20900CEB1DE /* Build configuration list for PBXNativeTarget "TriumphSwiftChallenge" */;
+			buildConfigurationList = E519768B26D6D3A600CEB1DE /* Build configuration list for PBXNativeTarget "TriumphSwiftTest" */;
 			buildPhases = (
-				992C9F519A2D7C14D77A5987 /* [CP] Check Pods Manifest.lock */,
-				E519763326D6D20700CEB1DE /* Sources */,
-				E519763426D6D20700CEB1DE /* Frameworks */,
-				E519763526D6D20700CEB1DE /* Resources */,
+				5A2DBA0522FFE57E65338B3E /* [CP] Check Pods Manifest.lock */,
+				E519767326D6D3A500CEB1DE /* Sources */,
+				E519767426D6D3A500CEB1DE /* Frameworks */,
+				E519767526D6D3A500CEB1DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TriumphSwiftChallenge;
-			productName = TriumphSwiftChallenge;
-			productReference = E519763726D6D20800CEB1DE /* TriumphSwiftChallenge.app */;
+			name = TriumphSwiftTest;
+			productName = TriumphSwiftTest;
+			productReference = E519767726D6D3A500CEB1DE /* TriumphSwiftTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E519762F26D6D20700CEB1DE /* Project object */ = {
+		E519766F26D6D3A500CEB1DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					E519763626D6D20700CEB1DE = {
+					E519767626D6D3A500CEB1DE = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = E519763226D6D20700CEB1DE /* Build configuration list for PBXProject "TriumphSwiftChallenge" */;
+			buildConfigurationList = E519767226D6D3A500CEB1DE /* Build configuration list for PBXProject "TriumphSwiftTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,31 +135,31 @@
 				en,
 				Base,
 			);
-			mainGroup = E519762E26D6D20700CEB1DE;
-			productRefGroup = E519763826D6D20800CEB1DE /* Products */;
+			mainGroup = E519766E26D6D3A500CEB1DE;
+			productRefGroup = E519767826D6D3A500CEB1DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E519763626D6D20700CEB1DE /* TriumphSwiftChallenge */,
+				E519767626D6D3A500CEB1DE /* TriumphSwiftTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E519763526D6D20700CEB1DE /* Resources */ = {
+		E519767526D6D3A500CEB1DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E519764726D6D20900CEB1DE /* LaunchScreen.storyboard in Resources */,
-				E519764426D6D20900CEB1DE /* Assets.xcassets in Resources */,
-				E519764226D6D20800CEB1DE /* Main.storyboard in Resources */,
+				E519768726D6D3A600CEB1DE /* LaunchScreen.storyboard in Resources */,
+				E519768426D6D3A600CEB1DE /* Assets.xcassets in Resources */,
+				E519768226D6D3A500CEB1DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		992C9F519A2D7C14D77A5987 /* [CP] Check Pods Manifest.lock */ = {
+		5A2DBA0522FFE57E65338B3E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,7 +174,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TriumphSwiftChallenge-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TriumphSwiftTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -184,31 +184,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E519763326D6D20700CEB1DE /* Sources */ = {
+		E519767326D6D3A500CEB1DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E519763F26D6D20800CEB1DE /* ViewController.swift in Sources */,
-				E519763B26D6D20800CEB1DE /* AppDelegate.swift in Sources */,
-				E519763D26D6D20800CEB1DE /* SceneDelegate.swift in Sources */,
+				E519767F26D6D3A500CEB1DE /* ViewController.swift in Sources */,
+				E519767B26D6D3A500CEB1DE /* AppDelegate.swift in Sources */,
+				E519767D26D6D3A500CEB1DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E519764026D6D20800CEB1DE /* Main.storyboard */ = {
+		E519768026D6D3A500CEB1DE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E519764126D6D20800CEB1DE /* Base */,
+				E519768126D6D3A500CEB1DE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E519764526D6D20900CEB1DE /* LaunchScreen.storyboard */ = {
+		E519768526D6D3A600CEB1DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E519764626D6D20900CEB1DE /* Base */,
+				E519768626D6D3A600CEB1DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E519764926D6D20900CEB1DE /* Debug */ = {
+		E519768926D6D3A600CEB1DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		E519764A26D6D20900CEB1DE /* Release */ = {
+		E519768A26D6D3A600CEB1DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,40 +332,40 @@
 			};
 			name = Release;
 		};
-		E519764C26D6D20900CEB1DE /* Debug */ = {
+		E519768C26D6D3A600CEB1DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 459A6748732A356BE0215D85 /* Pods-TriumphSwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = C46BCBE10D658A234700C1F9 /* Pods-TriumphSwiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8UBT2BP7;
-				INFOPLIST_FILE = TriumphSwiftChallenge/Info.plist;
+				INFOPLIST_FILE = TriumphSwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.TriumphSwiftChallenge.com.TriumphSwiftChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TriumphSwiftTest.com.TriumphSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E519764D26D6D20900CEB1DE /* Release */ = {
+		E519768D26D6D3A600CEB1DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C533ADB6AA88EDE8A6392823 /* Pods-TriumphSwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = BFAE9486D4DF7A229854B6FC /* Pods-TriumphSwiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS8UBT2BP7;
-				INFOPLIST_FILE = TriumphSwiftChallenge/Info.plist;
+				INFOPLIST_FILE = TriumphSwiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.TriumphSwiftChallenge.com.TriumphSwiftChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TriumphSwiftTest.com.TriumphSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,25 +375,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E519763226D6D20700CEB1DE /* Build configuration list for PBXProject "TriumphSwiftChallenge" */ = {
+		E519767226D6D3A500CEB1DE /* Build configuration list for PBXProject "TriumphSwiftTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E519764926D6D20900CEB1DE /* Debug */,
-				E519764A26D6D20900CEB1DE /* Release */,
+				E519768926D6D3A600CEB1DE /* Debug */,
+				E519768A26D6D3A600CEB1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E519764B26D6D20900CEB1DE /* Build configuration list for PBXNativeTarget "TriumphSwiftChallenge" */ = {
+		E519768B26D6D3A600CEB1DE /* Build configuration list for PBXNativeTarget "TriumphSwiftTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E519764C26D6D20900CEB1DE /* Debug */,
-				E519764D26D6D20900CEB1DE /* Release */,
+				E519768C26D6D3A600CEB1DE /* Debug */,
+				E519768D26D6D3A600CEB1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E519762F26D6D20700CEB1DE /* Project object */;
+	rootObject = E519766F26D6D3A500CEB1DE /* Project object */;
 }

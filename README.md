@@ -27,7 +27,7 @@ The project has the following folders:
 
 4. Api: 
 
-  Data layer that connects to the firebase realtime database and turns things into our model objects. Do not assume these all work as intended ;)
+   Data layer that connects to the firebase realtime database and turns things into our model objects. Do not assume these all work as intended ;)
 
 5. Supporting files: you shouldn't need anything here 
 
@@ -35,5 +35,9 @@ The project has the following folders:
 You can see the structure of our Firebase Real Time Database in database.json. Assume that the data in this json is the exact structure as in the realtime database. You have read, but not write, premissions to this database. You can assume that the database is correctly hooked up to the app. If you are unfamiliar with how to read from the firebase realtime database, use the below as a reference.
 
 https://firebase.google.com/docs/database/ios/read-and-write
+
+# 2. BrokenViewController
+
+You can see that the singular view controller in our app is horrible.
 
 

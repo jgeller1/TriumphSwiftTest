@@ -11,11 +11,11 @@ Download the starter project. We .gitignore all Pod files, so be sure to run a "
 
 The project has the following folders: 
 
-1. ViewControllers: 
+**1. ViewControllers:** 
 
-   Starting view controller
+   Starting view controller, "BadViewController"
    
-2. Models:
+**2. Models:**
 
    We have three models: user, organization, and donation.
    
@@ -26,15 +26,15 @@ The project has the following folders:
    A donation object has a senderId (user id), a receiverId (organziation Id), an amount, a timestamp, and an Id.
 
 
-3. TableViewCell: 
+**3. TableViewCell:**
    
    Starting tableview cell that will be populated by a single donation object. 
 
-4. Api: 
+**4. Api:** 
 
    Data layer that connects to the firebase realtime database and turns things into our model objects. Do not assume these all work as intended ;)
 
-5. Supporting files: 
+**5. Supporting files:**
 
    You shouldn't need anything here 
 

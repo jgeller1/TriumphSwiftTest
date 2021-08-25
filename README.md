@@ -53,11 +53,11 @@ You can see that the singular view controller in our app is horrible. The develo
 
 along with a tableview below it with every cell showing a donation you made. A few obvious issues: the message is displaying nil for both the name and amount donated and our tableview is not being populated with anything! 
 
-1. Have the starting message populate with the user's **first** name. You can use the function in Api/User/getUser to get the entire user JSON from the database (assume this works).
+1. Have the starting message populate with the user's **first** name. You can use the function in **Api/User/getUser** to get the entire user JSON from the database (assume this works).
 
 2. In viewDidLoad, we clearly make a call to populate the donations array with donation objects and reload the tableview, yet nothing is happening. Something must be up with that function. Investigate. 
 
-3. Now the tableview is populated, but our cell is messed up. Go into TableViewCells/MyDonationTableViewCell and make sure the amount and user's name are correctly shown. 
+3. Now the tableview is populated, but our cell is messed up. Go into **TableViewCells/MyDonationTableViewCell** and make sure the amount and user's name are correctly shown. 
 
 4. This is better, but still not easy on the eyes. Too much text. Notice that in MyDonationTableViewCell, we have an imageview named profileImageView. We want to populate this with the image from the profile photo of the organization we donated to. Install the pod **SDWebImage** and populate the imageview with the correct profile photo. 
 
@@ -66,5 +66,11 @@ Hint: the donation object in each cell holds a "receiverId" object that maps to 
 5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically. 
 
 6. Our view controller looks presentable! The only issue is that we dont want the screen to display until everything has loaded propertly. Use the **SwiftSpinner** cocoapod loading indicator and DispatchQueue to make the spinner show until all data has been loaded.
+
+# 3. To the moon 🚀
+
+We want to improve our app to multiple pages now. Restructure the app so that it is controlled by a **TabBarController** with two tabs. The first being the view controller you just worked on, and the second being a new collection view controller that you create.
+
+1. Add a tab bar with the two tab bars above. 
 
 

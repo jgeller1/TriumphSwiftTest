@@ -38,6 +38,6 @@ https://firebase.google.com/docs/database/ios/read-and-write
 
 # 2. BrokenViewController
 
-You can see that the singular view controller in our app is horrible.
+You can see that the singular view controller in our app is horrible. The developer intended to have a nice welcome message saying "Hi [name], you have donated $[amount] this year, along with a tableview with every cell showing a donation you made. You will fix this view controller. 
 
 

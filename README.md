@@ -1,7 +1,7 @@
 # TriumphSwiftTest
 Are you up for the challenge? 
 
-You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but you should limit yourself to a few hours unless you feel inspired to do more. Assume functions may not work as intended unless specified.
+You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but you should limit yourself to between 5-10 hours unless you feel inspired to do more. Assume functions may not work as intended unless specified.
 
 # Steps: 
 
@@ -14,7 +14,7 @@ The project has the following folders:
 **1. ViewControllers:** 
 
 
-   Has the starting view controller, **BadViewController**
+   Has the starting view controller on launch, **BadViewController**
    
    
 **2. Models:**
@@ -80,7 +80,7 @@ along with a tableview below it with each cell showing a donation you made. A fe
 
 **Hint:** the donation object in each cell holds a "receiverId" string that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. Remember, you have full read access.
 
-**Extra (difficult):** There is a timestamp attached to each donation. The value is from a call to **Date().timeIntervalSinceReferenceDate**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
+**Extra:** There is a timestamp attached to each donation. The value is from a call to **Date().timeIntervalSinceReferenceDate**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
 
 5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically from the array of donations you've made.
 

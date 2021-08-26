@@ -1,7 +1,7 @@
 # TriumphSwiftTest
 Are you up for the challenge? 
 
-You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but you should limit yourself to a few hours unless you are feeling inspired to do more. Assume functions may not work as intended unless specified.
+You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but you should limit yourself to a few hours unless you feel inspired to do more. Assume functions may not work as intended unless specified.
 
 # Steps: 
 
@@ -49,10 +49,10 @@ The project has the following folders:
    You shouldn't need anything here 
 
 
-**Critical:**
+**6. Database:**
 
 
-You can see the structure of our Firebase Real Time Database in database.json. **Assume that the data in this json is the exact structure as in the realtime database.** You have read, but not write, premissions to this database. You can assume that the database is correctly hooked up to the app. If you are unfamiliar with how to read from the firebase realtime database, use the below as a reference. 
+You can see the structure of our Firebase Real Time Database in **Database/database.json**. Assume that the data in this json is the exact structure as in the realtime database.** You have read, but not write, premissions to this database. You can assume that the database is correctly hooked up to the app. If you are unfamiliar with how to read from the firebase realtime database, use the below as a reference. 
 
 https://firebase.google.com/docs/database/ios/read-and-write
 
@@ -76,13 +76,11 @@ along with a tableview below it with each cell showing a donation you made. A fe
 
 3. Now the tableview is populated, but our cell looks messed up. Go into **TableViewCells/MyDonationTableViewCell** and make sure the donation amount and user's name are correctly shown. 
 
-4. This is better, but still not easy on the eyes. Too much text. Notice that in MyDonationTableViewCell, we have an imageview named profileImageView. We want to populate this with the image from the profile photo of the organization we donated to. Install the pod **SDWebImage** and populate the imageview with the correct profile photo. 
+4. This is better, but still not easy on the eyes. Too much text. Notice that in MyDonationTableViewCell, we have an imageview named profileImageView. We want to populate this with the image from the profile photo of the organization we donated to. Install the pod **SDWebImage** and populate the imageview with the correct profile photo. If you feel more comfortable with another asynchronous image loader, go for it. 
 
-**Hint:** the donation object in each cell holds a "receiverId" string that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. Remember, you have full write access.
+**Hint:** the donation object in each cell holds a "receiverId" string that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. Remember, you have full read access.
 
-**Hint:** Images and tableviews are finnikey. Do your best with loading the images in a smooth way. 
-
-**Extra (difficult):** There is a timestamp attached to each donation. The value is from a call to javascript's **Date.now()**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
+**Extra (difficult):** There is a timestamp attached to each donation. The value is from a call to **Date().timeIntervalSinceReferenceDate**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
 
 5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically from the array of donations you've made.
 

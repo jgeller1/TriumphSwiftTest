@@ -90,7 +90,7 @@ along with a tableview below it with each cell showing a donation you made. A fe
 
 7. Rename BadViewController() to GoodViewController() 😊
 
-# 3. To the moon 🚀
+# 3. DonationViewController
 
 
 
@@ -112,6 +112,8 @@ We want to improve our app to multiple pages now. Restructure the app so that it
 
 https://firebase.google.com/docs/firestore/manage-data/transactions#swift
 
-6. If you've made it here, well done. Theres nothing left to do from me. If you're not satisfied yet, feel free to show off. Excited to see what you come up with (by no means mandatory).
+# 3. To the moon 🚀
+
+1. If you've made it here, well done. Theres nothing left to do from me. If you're not satisfied yet, feel free to show off. Excited to see what you come up with (by no means mandatory).
 
 

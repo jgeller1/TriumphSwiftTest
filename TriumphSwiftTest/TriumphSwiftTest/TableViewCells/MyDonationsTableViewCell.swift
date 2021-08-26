@@ -1,5 +1,4 @@
 import UIKit
-import SDWebImage
 
 class MyDonationsTableViewCell: UITableViewCell {
     
@@ -16,7 +15,7 @@ class MyDonationsTableViewCell: UITableViewCell {
             self.nameLabel.text = donation?.senderId
             self.usernameLabel.text = donation?.senderId
             moneyLabel.text = "$\(donation!.amount)"
-            self.profileImageView.backgroundColor = .yellow
+            self.profileImageView.backgroundColor = .clear // TODO: remove 
         }
     }
     

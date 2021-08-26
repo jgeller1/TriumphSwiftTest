@@ -5,7 +5,6 @@
 //
 
 import UIKit
-import SDWebImage
 
 class BrokenViewController: UIViewController {
    

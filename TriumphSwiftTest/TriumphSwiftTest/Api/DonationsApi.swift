@@ -10,10 +10,8 @@ import FirebaseDatabase
 
 class DonationsApi {
     
+    // TODO: We aren't getting any donations from the database!
     func getMyDonations(completion: @escaping ([Donation]?) -> Void) {
-        
-        let dispatch = DispatchGroup()
-        
         Database.database().reference().child("myDonations").child("uid1").observe(.value, with: {
             snapshot in
             
@@ -24,7 +22,6 @@ class DonationsApi {
             } else if let donationIdDict = snapshot.value as? [String: Bool] {
 
                 for donationId in donationIdDict {
-                    dispatch.enter()
                     Database.database().reference().child("donations").child(donationId.key).observeSingleEvent(of: .value, with: {
                         snapshot in
 
@@ -32,20 +29,16 @@ class DonationsApi {
                             let donation = Donation.transformDonation(dict: donationData, key: snapshot.key)
                             donations.append(donation)
                         }
-                        dispatch.leave()
-                        
                     })
                 }
             }
             
-            dispatch.notify(queue: .main, execute: {
-                completion(donations)
-            })
+            completion(donations)
         })
     }
     
-    // TODO: Fill out
-    func addDonationToOrg(orgId: String, amount: Double, uid: String="uid1") {
+    // TODO: Write function to increment the amount donated node under an organization with Id orgId by amount
+    func addDonationToOrg(orgId: String, uid: String="uid1") {
     }
     
 }

@@ -7,11 +7,11 @@
 
 import Foundation
 import FirebaseDatabase
-import SDWebImage
 
 class UsersApi {
     
     // Gets a user from the current user id. We can assume the user id is "uid1"
+    // This function works.
     func getUser(completion: @escaping (User?) -> Void) {
         Database.database().reference().child("users").child("uid1").observeSingleEvent(of: .value, with: {
             snapshot in

@@ -81,7 +81,9 @@ We want to improve our app to multiple pages now. Restructure the app so that it
 
 4. The cell should display the organization name, the amount raised, and a photo with the profilePhotoURL (reuse your code from earlier). Finally, add a button to each cell that says Donate. When tapped, the button should bring up an ActionSheet prompting the user to donate an amount of 1$, 5$, 10$, or $100. On tapping, you should call the function **addDonationToOrg** in **Api/DonationsApi/**. 
 
-5. Fill out the function **addDonationToOrg** in **Api/DonationsApi/** to increase the amountGiven field by the amount the user clicked. You have special write premission to this node. Do not worry about adding the donation to the "myDonations" or "donations" node. We can say this one was anon. 
+5. Fill out the function **addDonationToOrg** in **Api/DonationsApi/** to increase the amountGiven field by the amount the user clicked. You have special write premission to this node. Do not worry about adding the donation to the "myDonations" or "donations" node. We can say this one was anon. To ensure concurency, use a firebase Transaction, which you can read about here.
+
+https://firebase.google.com/docs/firestore/manage-data/transactions#swift
 
 6. If you've made it here, well done. Theres nothing left to do from me. If you're not satisfied yet, feel free to show off. Excited to see what you come up with (by no means mandatory).
 

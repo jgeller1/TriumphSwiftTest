@@ -13,9 +13,13 @@ The project has the following folders:
 
 **1. ViewControllers:** 
 
+
    Has the starting view controller, **BadViewController**
    
+   
 **2. Models:**
+
+
 
    We have three models: **user**, **organization**, and **donation**.
    
@@ -26,20 +30,27 @@ The project has the following folders:
    A **donation** object has a **senderId** (user id), a **receiverId** (organziation Id), an **amount**, a **timestamp**, and an **Id**.
 
 
+
 **3. TableViewCell:**
    
+   
    Starting tableview cell that will be populated by a single donation object. 
+   
 
 **4. Api:** 
 
-   Data layer that connects to the firebase realtime database and turns things into our model objects. Do not assume these all work as intended ;)
+
+   Data layer that connects to the firebase realtime database and turns things into our model objects.
+   
 
 **5. Supporting files:**
+
 
    You shouldn't need anything here 
 
 
 **Critical:**
+
 
 You can see the structure of our Firebase Real Time Database in database.json. **Assume that the data in this json is the exact structure as in the realtime database.** You have read, but not write, premissions to this database. You can assume that the database is correctly hooked up to the app. If you are unfamiliar with how to read from the firebase realtime database, use the below as a reference. 
 
@@ -48,7 +59,10 @@ https://firebase.google.com/docs/database/ios/read-and-write
 
 **Note: assume you are logged in as an authenticated user with uid "uid1"**
 
+
 # 2. BrokenViewController
+
+
 
 You can see that the singular view controller in our app is horrible. The developer intended to have a nice welcome message saying
 
@@ -77,6 +91,8 @@ along with a tableview below it with each cell showing a donation you made. A fe
 7. Rename BadViewController() to GoodViewController() 😊
 
 # 3. To the moon 🚀
+
+
 
 We want to improve our app to multiple pages now. Restructure the app so that it is controlled by a **TabBarController** with two tabs. The first being the view controller you just worked on, and the second being a new collection view controller that you will create. Just as in the last view controller, handle asynchronous loading by showing a **SwiftSpinner**. 
 

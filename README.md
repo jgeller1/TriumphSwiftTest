@@ -39,11 +39,15 @@ The project has the following folders:
    You shouldn't need anything here 
 
 
+**Critical:**
+
 You can see the structure of our Firebase Real Time Database in database.json. Assume that the data in this json is the exact structure as in the realtime database. You have read, but not write, premissions to this database. You can assume that the database is correctly hooked up to the app. If you are unfamiliar with how to read from the firebase realtime database, use the below as a reference. 
 
-Your user id is "uid1".
-
 https://firebase.google.com/docs/database/ios/read-and-write
+
+
+**Note: assume you are logged in as an authenticated user with uid "uid1"
+**
 
 # 2. BrokenViewController
 
@@ -51,21 +55,25 @@ You can see that the singular view controller in our app is horrible. The develo
 
 "Hi [name], you have donated $[amount] this year"
 
-along with a tableview below it with every cell showing a donation you made. A few obvious issues: the message is displaying nil for both the name and amount donated and our tableview is not being populated with anything! 
+along with a tableview below it with each cell showing a donation you made. A few obvious issues: the message displays nil for both the name and amount donated and our tableview is not being populated with anything! 
 
-1. Have the starting message populate with the user's **first** name. You can use the function in **Api/User/getUser** to get the entire user JSON from the database (assume this works).
+1. Have the starting message populate with the user's **first** name. You can use the function in **Api/User/getUser** to get the entire user JSON from the database and assume this function works.
 
 2. In viewDidLoad, we clearly make a call to populate the donations array with donation objects and reload the tableview, yet nothing is happening. Something must be up with that function. Investigate. 
 
-3. Now the tableview is populated, but our cell is messed up. Go into **TableViewCells/MyDonationTableViewCell** and make sure the amount and user's name are correctly shown. 
+3. Now the tableview is populated, but our cell looks messed up. Go into **TableViewCells/MyDonationTableViewCell** and make sure the donation amount and user's name are correctly shown. 
 
 4. This is better, but still not easy on the eyes. Too much text. Notice that in MyDonationTableViewCell, we have an imageview named profileImageView. We want to populate this with the image from the profile photo of the organization we donated to. Install the pod **SDWebImage** and populate the imageview with the correct profile photo. 
 
-Hint: the donation object in each cell holds a "receiverId" object that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. 
+Hint: the donation object in each cell holds a "receiverId" string that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. Remember, you have full write access.
 
-5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically. 
+Hint: Images and tableviews are finnikey. Do your best with loading the images in a smooth way. 
 
-6. Our view controller looks presentable! The only issue is that we dont want the screen to display until everything has loaded propertly. Use the **SwiftSpinner** cocoapod loading indicator and DispatchQueue to make the spinner show until all data has been loaded.
+5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically from the array of donations you've made.
+
+6. Our view controller looks presentable! The only issue is that we dont want the screen to display until everything has loaded propertly. Use the **SwiftSpinner** cocoapod loading indicator and DispatchQueue to make the spinner show. Hide it when all data has been loaded.
+
+7. Rename BadViewController() to GoodViewController() :) 
 
 # 3. To the moon 🚀
 
@@ -73,7 +81,7 @@ We want to improve our app to multiple pages now. Restructure the app so that it
 
 **Do this entirely programtically. Triumph hates Storyboards**
 
-1. Add a tab bar with the two tab bars above. 
+1. Add a tab bar with the tabs set as the GoodViewController() and a new view controller. 
 
 2. Create a custom CollectionViewCell and hook it up **programatically** to the second tab. The collectionView should be constrained to the entire bounds of the screen and scroll vertically. 
 

@@ -29,7 +29,7 @@ The project has the following folders:
    
    A **donation** object has a **senderId** (user id), a **receiverId** (organziation Id), an **amount**, a **timestamp**, and an **Id**.
 
-
+   **You can assume there are no errors in the model objects.**
 
 **3. TableViewCell:**
    

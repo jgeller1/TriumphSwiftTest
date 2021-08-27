@@ -40,13 +40,13 @@ The project has the following folders:
 **4. Api:** 
 
 
-   Data layer that connects to the firebase realtime database and turns things into our model objects.
+   Data layer that connects to the firebase realtime database. 
    
 
 **5. Supporting files:**
 
 
-   You shouldn't need anything here 
+   You shouldn't need anything here.  
 
 
 **6. Database:**
@@ -62,9 +62,9 @@ https://firebase.google.com/docs/database/ios/read-and-write
 
 # 2. BrokenViewController
 
+Run the app. 
 
-
-You can see that the singular view controller in our app is horrible. The developer intended to have a nice welcome message saying
+You can see our singular view controller is horrible. The developer intended to have a nice welcome message saying
 
 "Hi [name], you have donated $[amount] this year"
 
@@ -72,7 +72,7 @@ along with a tableview below it with each cell showing a donation you made. A fe
 
 1. Have the starting message populate with the user's **first** name. You can use the function in **Api/User/getUser** to get the entire user JSON from the database and assume this function works.
 
-2. In viewDidLoad, we clearly make a call to populate the donations array with donation objects and reload the tableview, yet nothing is happening. Something must be up with that function. Investigate. You can assume that the Donation model works. 
+2. In viewDidLoad, we clearly make a call to populate the donations array with donation objects and reload the tableview, yet nothing is happening. Something must be up with that function. Investigate. You can assume that the Donation model works and that there are donations for your uid (you can confirm in Database/database.json).
 
 3. Now the tableview is populated, but our cell looks messed up. Go into **TableViewCells/MyDonationTableViewCell** and make sure the donation amount and user's name are correctly shown. 
 

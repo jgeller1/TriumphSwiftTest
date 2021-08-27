@@ -112,6 +112,6 @@ https://firebase.google.com/docs/firestore/manage-data/transactions#swift
 
 # 3. To the moon 🚀
 
-1. If you've made it here, well done. Theres nothing left to do from me. If you've breezed through this, feel free to show off. Excited to see what you come up with (by no means mandatory).
+1. If you've made it here, well done. Theres nothing left to do from me. If you've breezed through this, feel free to show off. Excited to see what you come up with (by no means mandatory). Please do not work more than 10 hours on this. 
 
 

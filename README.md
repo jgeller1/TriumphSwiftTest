@@ -1,7 +1,7 @@
 # TriumphSwiftTest
 Are you up for the challenge? 
 
-You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but you should limit yourself to between 5-10 hours unless you feel inspired to do more. Assume functions may not work as intended unless specified.
+You are going to help debug and build functionality for our donation app, a simple app that tracks your donations to various charitable organizations with friends. There is no strict time limit, but **you should limit yourself to between 5-10 hours unless you feel inspired to do more.** Assume functions may not work as intended unless specified.
 
 # Steps: 
 

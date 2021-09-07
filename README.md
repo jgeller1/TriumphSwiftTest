@@ -80,7 +80,7 @@ along with a tableview below it with each cell showing a donation you made. A fe
 
 **Hint:** the donation object in each cell holds a "receiverId" string that maps to an organization (see the database json). Follow the paradigm in the other Api files and build a function to get an organization's url from its id, and pass the url you get to a function in SDWebImage. Remember, you have full read access.
 
-**Extra:** There is a timestamp attached to each donation. The value is from a call to **Date().timeIntervalSinceReferenceDate**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
+**Extra:** There is a timestamp attached to each donation. The value is from **timeIntervalSince1970**. Sort the array so the newest donations display first and add a textfield showing the date of the donation in a human readable form. 
 
 5. Now we can fix the rest of the starting message by showing the total amount donated. This should be the sum of all donations that you've made. Use a property observer and functional programming (map, reduce, etc.) to compute this dynamically from the array of donations you've made.
 
@@ -108,7 +108,7 @@ We want to improve our app to multiple pages now. Restructure the app so that it
 
 6. Fill out the function **addDonationToOrg** in **Api/DonationsApi/** to increase the amountGiven field by the amount the user clicked. You have special write premission to this node. Do not worry about adding the donation to the "myDonations" or "donations" node (this is an anon donation). To ensure concurency, use a client side firebase Transaction to update the data, which you can read about here.
 
-https://firebase.google.com/docs/firestore/manage-data/transactions#swift
+https://firebase.google.com/docs/database/ios/read-and-write
 
 # 3. To the moon 🚀
 
